@@ -1,0 +1,136 @@
+.agendamento{
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 40px 50px;
+    background-color: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(212, 175, 145, 0.25);
+    border-radius: 12px;
+}
+
+agendamento h1{
+    font-family: "Playfair Display" "Georgia" serif;
+    font-size: 2.6rem;
+    color: #f2eee7;
+    margin-bottom: 10px;
+}
+
+agendamento > p {
+    color: #cfc8bd;
+    font-size: 1rem;
+    margin-bottom: 35px;
+}
+
+
+#form-agendar {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+#form-agendar label{
+    display: block;
+    font-family: "Playfair Display", "Georgia", serif;
+    font-size: 1.05rem;
+    color: #d4af91;
+    margin-bottom: 8px;
+    letter-spacing: 0.3px;
+}
+
+#form-agendar input,
+#form-agendar select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 14px 16px;
+    font-size: 1rem;
+    font-family: inherit;
+    color: #f2eee7;
+    background-color: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(212, 175, 145, 0.35);
+    border-radius: 8px;
+    transition: border-color 0.2s ease, background-color 0.2s aese;
+}
+
+#form-agendar input::placeholder{
+    color: #9a9388;
+}
+
+#form-agendar input:focus,
+#form-agendar select:focus{
+    outline: none;
+    border-color: #d4af91;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#form-agendar select{
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='https://www.w3.org/2000/svg' width='14' height='9' viewBox='0 0 14 9'><path d='m1 1l6 6 6-6' strokes='%23d4af91' stroke-width='2' fill='none' fill-rule='evenodd'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 16px center;
+    padding-right: 40px;
+    cursor: pointer;
+}
+
+#form-agendar select option{
+    background-color: #2a2333;
+    color: #f2eee7;
+    padding: 10px;
+}
+
+.btn-agendar{
+    margin-top: 10px;
+    padding: 16px 32px;
+    font-size: 1.05rem;
+    font-family: "Playfair Display", "Georgia", serif;
+    letter-spacing: 0.5px;
+    color: #1a1520;
+    background-color: #d4af91;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.15s ease;
+}
+
+#mensagem-confirmacao{
+    margin-top: 30px;
+    padding: 16px 20px;
+    background-color: rgba(120, 200, 140, 0.12);
+    border: 1px solid rgba(120, 200, 140, 0.4);
+    border-radius: 8px;
+    color: #d9f2df;
+}
+
+#mensagem-confirmacao.escondido,.escondido{
+    display: none;
+}
+
+.whatsapp-agendar{
+    margin-top: 30px;
+    text-align: left;
+}
+
+.whatsapp-agendar p {
+    color: #cfc8bd;
+    margin-bottom: 8px;
+}
+
+.whatsapp-agendar a {
+    display: inline-block;
+    color: #7fd6a3;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.whatsapp-agendar a:hover{
+    color: #a3e6c1;
+}
+
+@media (max-width: 600px) {
+    .agendamento{
+        margin: 30px 16px;
+        padding: 30px 24px;
+    }
+    .agendamento h1{
+        font-size: 2rem;
+    }
+}
