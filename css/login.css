@@ -40,3 +40,82 @@
     font-size: 16px;
 }
 
+.login-caixa form {
+    display: flex;
+    flex-direction: column;
+
+    text-align: left;
+}
+
+.login-caixa label {
+    margin-bottom: 8px;
+
+    color: #f1e3ce;
+
+    font-size: 15px;
+}
+
+.login-caixa input {
+    width: 100%;
+    padding: 113px;
+    margin-bottom: 20px;
+
+    background-color: #211713;
+    color: #f1e3ce;
+
+    border: 1px solid #6b5038;
+    border-radius: 5px;
+
+    outline: none;
+
+    font-size: 15px;
+}
+
+.login-caixa input:focus{
+    border-color: #c6a06a;
+}
+
+.login-caixa button{
+    padding: 13px;
+
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+    background-color: #c6a06a;
+
+    color: #211713;
+
+    border: none;
+    border-radius: 5px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.login-caixa button:hover{
+    background-color: #d8b77f;
+}
+
+.login-caixa a {
+    color: #c6a06a;
+
+    text-decoration: none;
+
+    font-size: 14px;
+}
+
+.login-caixa a:hover{
+    text-decoration: underline;
+}
+
+.login-caixa form p{
+    margin-top: 25px;
+
+    text-align: center;
+
+    color: #f1e3ce;
+
+    font-size: 14px;
+}
