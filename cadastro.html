@@ -23,8 +23,44 @@
 
     </header>
 
-    <main>
-        
+    <main class="container-cadastro">
+        <section class="formulario-cadastro">
+            <h1>Crie sua conta</h1>
+            <p class="descricao"> Preencha seus dados para se cadastrar
+                e agendar seu próximo atendimento.</p>
+
+    <form action="#" method="post">
+        <div class="campo">
+
+            <label for="nome">Nome completo</label>
+            <input type="text" id="nome" placeholder="Digite seu nome completo" autocomplete="name" required>
+
+        </div>
+
+        <div class="campo">
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="Digete seu E-mail" autocomplete="email" required>
+        </div>
+
+        <div class="campo">
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha" placeholder="Crie uma senha" autocomplete="new-password" minlength="8" required>
+        </div>
+
+        <button type="submit" class="btn-cadastro">
+            Criar minha conta
+        </button>
+    </form>
+
+      <p class="login">
+        Já tem uma conta?
+        <a href="login.html">Entrar</a>
+      </p>
+        </section>
     </main>
+     <footer id="contato" class="rodape">
+        <p>&copy; 2026 Barbearia Alex. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
