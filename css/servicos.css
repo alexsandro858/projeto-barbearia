@@ -1,0 +1,92 @@
+.cabecalho{
+    height: 90px;
+    padding: 0 7%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+
+.servicos {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #2a1d17;
+}
+
+.servicos .subtitulo {
+    letter-spacing: 4px;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.servicos h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.servicos .descricao {
+    max-width: 600px;
+    margin: 0 auto 45px;
+    line-height: 1.6;
+}
+
+
+.lista-servicos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+.card-servico {
+    border: 1px solid #777;
+    padding: 30px;
+    text-align: center;
+}
+
+.card-servico:hover {
+    transform: translateY(-5px);
+}
+
+
+.card-servico h3 {
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+
+.card-servico p {
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+
+.card-servico span {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+
+.card-servico button {
+    padding: 10px 22px;
+    cursor: pointer;
+}
+
+@media (max-width: 700px) {
+
+    .lista-servicos {
+        grid-template-columns: 1fr;
+    }
+
+    .servicos h2 {
+        font-size: 34px;
+    }
+
+}
