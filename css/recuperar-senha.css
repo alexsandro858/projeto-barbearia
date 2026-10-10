@@ -47,3 +47,78 @@ body {
     margin-bottom: 28px;
 }
 
+.campo-recuperar-senha {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 22px;
+}
+
+.campo-recuperar-senha label {
+    font-size: 14px;
+}
+
+.campo-recuperar-senha input {
+    width: 100%;
+    padding: 13px;
+    background-color: #211713;
+    color: #f1e3ce;
+    border: 1px solid #60452f;
+    border-radius: 6px;
+    outline: none;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+.campo-recuperar-senha input::placeholder {
+    color: #9e8975;
+}
+
+.campo-recuperar-senha input:focus {
+    border-color: #c6a06a;
+}
+
+.btn-recuperar-senha {
+    width: 100%;
+    padding: 14px;
+    background-color: #c6a06a;
+    color: #211713;
+    border: none;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-recuperar-senha:hover {
+    background-color: #d8b982;
+}
+
+.formulario-recuperar-senha .voltar-login {
+    margin-top: 24px;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.voltar-login a {
+    color: #c6a06a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.voltar-login a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .formulario-recuperar-senha {
+        padding: 25px 20px;
+    }
+
+    .formulario-recuperar-senha h1 {
+        font-size: 26px;
+    }
+}
