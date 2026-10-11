@@ -33,3 +33,41 @@ body {
     gap: 20px;
     border-bottom: 1px solid var(--borda);
 }
+
+.logo{
+    color: var(--texto);
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.logo span{
+    color: var(--dourado);
+}
+
+.btn-sair{
+    color: var(--dourado);
+    text-decoration: none;
+    border: 1px solid var(--dourado);
+    padding: 11px 18px;
+    border-radius: 6px;
+    transition: 0.3s;
+    white-space: nowrap;
+}
+
+.btn-sair:hover {
+    background-color: var(--dourado);
+    color: var(--fundo);
+}
+
+.boas-vindas{
+    margin-bottom: 45px;
+}
+
+.subtitulo {
+    color: var(--dourado);
+    font-size: 13px;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
