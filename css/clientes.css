@@ -71,3 +71,38 @@ body {
     letter-spacing: 3px;
     margin-bottom: 15px;
 }
+
+.boas-vindas h1{
+    font-size: 38px;
+    margin-bottom: 12px;
+}
+
+.boas-vindas h1 span {
+    color: var(--dourado);
+}
+
+.boas-vindas > p:last-child {
+    color: var(--texto-secundario);
+    font-size: 16px;
+    line-height: 1.6;
+}
+.secao-agendamentos,
+.secao-conta {
+    margin-bottom: 42px;
+}
+
+.titulo-secao{
+    margin-bottom: 22px;
+}
+
+.titulo-secao h2 {
+    font-size: 25px;
+    margin-bottom: 9px;
+}
+
+.titulo-secao p {
+    color: var(--texto-secundario);
+    font-size: 15px;
+    line-height: 1.6;
+}
+
