@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fundo: #211713;
+    --cartao: #30221c;
+    --cartao-hover: #3a2921;
+    --dourado: #c6a06a;
+    --texto: #f1e3ce;
+    --texto-secundario: #b9a794;
+    --borda: #49352a;
+}
+
+body {
+    background-color: var(--fundo);
+    color: var(--texto);
+    font-family: Georgia, serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho{
+    width: 100%;
+    min-height: 90px;
+    padding: 20px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    border-bottom: 1px solid var(--borda);
+}
