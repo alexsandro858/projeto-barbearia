@@ -106,3 +106,57 @@ body {
     line-height: 1.6;
 }
 
+.cartao-agendamento,
+.cartao-conta {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--cartao);
+    border: 1px solid var(--borda);
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 22px;
+    transition: 0.3;
+}
+
+.cartao-agendamento:hover,
+.cartao-conta:hover {
+    background-color: var(--cartao-hover);
+    border-color: var(--dourado);
+}
+
+.icone {
+    min-width: 55px;
+    height: 55px;
+    border: 1px solid var(--dourado);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--dourado);
+    font-size: 20px;
+}
+
+.informacoes {
+    flex: 1;
+}
+
+.informacoes h3 {
+    font-size: 18px;
+    margin-bottom: 9px;
+}
+
+.informacoes p {
+    color: var(--texto-secundario);
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.status {
+    color: var(--dourado);
+    background-color: #443326;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 12px;
+    white-space: nowrap;
+}
