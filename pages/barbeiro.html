@@ -23,7 +23,7 @@
                 <div class="avatar">JS</div>
 
                 <div class="profile-info">
-                    <strong>João silva</strong>
+                    <strong id="nomeUsuario">João silva</strong>
 
                     <span>Barbeiro</span>
                 </div>
@@ -45,7 +45,98 @@
 
                 <a href="#configuracoes" class="nav-link">⚙ Configurações</a>
             </nav>
+
+            <div class="sidebar-footer">
+                <span>✂</span>
+                <p>DISCIPLINA<br>FOCO<br>RESULTADO</p>
+            </div>
         </aside>
+
+        <main class="main-content" id="inicio">
+
+            <header class="topbar">
+                <span class="topbar-title">Painel administartivo</span>
+
+                <a href="login.html" class="logout">⇥ Sair</a>
+
+            </header>
+
+            <section class="welcome">
+
+                <p class="eyebrow">PAINEL DO BARBEIRO</p>
+
+                <h1>
+                    Olá, <span id="nomeUsuario"></span>joão silva!
+                </h1>
+
+                <p>Bem-vindo ao painel da barbearia. aqui está um resumo do seu dia.</p>
+            </section>
+
+            <section class="stats-grid">
+
+                <article class="stat-card">
+
+                    <div class="stat-heading">
+                        <span class="stat-icon">▦</span>
+                        Agendamentos de hoje
+                    </div>
+
+                    <strong>08</strong>
+
+                    <small>Agendamentos registrados</small>
+
+                </article>
+
+                <article class="stat-card">
+                    <div class="stat-heading">
+                        <span class="stat-icon">♙</span>
+                        Atendimentos realizados
+                    </div>
+
+                    <strong>06</strong>
+
+                    <small>Clientes atendidos hoje</small>
+                </article>
+
+                <article class="stat-card">
+                    <div class="stat-heading">
+                        <span class="stat-icon">▤</span>
+                        Faturamentos do dia
+                    </div>
+
+                     <strong class="money">R$ 480,00</strong>
+
+                     <small>Valor ilustrativo</small>
+
+                </article>
+
+                <article class="stat-card">
+
+                    <div class="stat-heading">
+                        <span class="stat-icon">◷</span>
+                        Próximo cliente
+                    </div>
+
+                    <strong>14:30</strong>
+
+                    <small>Lucas Ferreira</small>
+                </article>
+        
+            </section>
+
+            <section class="panel" id="agendamentos">
+
+                <div class="panel-heading">
+                    <h2>
+                        ▦ Agendamentos de hoje
+                    </h2>
+
+                    <a href="#agendamentos">Ver todos → </a>
+                </div>
+            </section>
+
+
+        </main>
     </div>
 </body>
 </html>
