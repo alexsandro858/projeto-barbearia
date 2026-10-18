@@ -339,3 +339,18 @@ h1 {
 .client-mini {
   color: #d2c6bb;
 }
+
+.panel {
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.panel-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding-bottom: 13px;
+  border-bottom: 1px solid #5a4028;
+  margin-bottom: 12px;
+}
