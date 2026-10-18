@@ -620,3 +620,29 @@ tbody tr:hover {
   font-size: 21px;
   font-weight: 400;
 }
+
+.page-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 27px;
+  color: #a98553;
+}
+
+.page-footer > span {
+  height: 1px;
+  flex: 1;
+  background: #60452b;
+}
+
+.page-footer p {
+  margin: 0;
+  font-size: 10px;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
+
+.page-footer b {
+  margin: 0 9px;
+}
