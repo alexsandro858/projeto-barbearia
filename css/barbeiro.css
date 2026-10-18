@@ -43,3 +43,134 @@ button {
     grid-template-columns: 245px minmax(0, 1fr);
 }
 
+.sidebar{
+    background: linear-gradient(160deg, #21170f, #160f0b);
+    border-right: 1px solid var(--gold);
+    padding: 22px 15px 18px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4px 10px 22px;
+    border-bottom: 1px solid #74552f;
+    color: var(--gold-light);
+}
+
+.brand-icon {
+    font-size: 37px;
+    line-height: 1.1;
+}
+
+.brand-small{
+  letter-spacing: 5px;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  margin-top: 4px;
+}
+
+.brand-name {
+  font-family: Georgia, serif;
+  font-size: 40px;
+  letter-spacing: 4px;
+  line-height: 1.05;
+}
+
+.profile{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 23px 7px
+}
+
+.avatar{
+  width: 45px;
+  height: 45px;
+  border: 1px solid var(--gold);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: var(--gold-light);
+  font-weight: 700;
+  background: #382619;
+}
+
+.profile-info{
+  display: grid;
+  gap: 3px;
+  flex: 1;
+}
+
+.profile-info strong{
+    font-size: 14px;
+}
+
+.profile-info span{
+    color: var(--muted);
+    font-size: 12px;
+}
+
+.profile-toggle{
+    background: none;
+    border: 0;
+    color:  var(--gold);
+    font-size: 22px;
+}
+
+.navigation{
+    display: grid;
+    gap: 4px;
+}
+
+.nav-link{
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 13px 12px;
+  border-radius: 5px;
+  color: #eee4d9;
+  font-size: 14px;
+}
+
+.nav-link > span{
+  color: var(--gold);
+  width: 20px;
+  text-align: center;
+  font-size: 23px;
+  line-height: 1;
+}
+
+.nav-link:hover,
+.nav-link.active{
+    background: linear-gradient(100deg, #b98642, #8e642f);
+    color: white;
+}
+
+.nav-link.active > span{
+    color: white;
+}
+
+.sidebar-footer {
+  margin-top: auto;
+  padding: 28px 10px 6px;
+  text-align: center;
+  color: var(--gold-light);
+}
+
+.footer-scissors {
+  display: block;
+  font-size: 28px;
+  border-top: 1px solid #74552f;
+  padding-top: 15px;
+}
+
+.sidebar-footer p {
+  letter-spacing: 4px;
+  line-height: 1.7;
+  font-family: Georgia, serif;
+  font-size: 13px;
+}
