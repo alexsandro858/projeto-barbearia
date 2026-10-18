@@ -447,3 +447,27 @@ tbody tr:hover {
   color: var(--gold);
   font-size: 17px;
 }
+
+.quick-cards {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.quick-card {
+  min-height: 86px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 13px 12px;
+}
+
+.quick-card:hover {
+  border-color: var(--gold);
+  background: #2b1d13;
+}
+
+.quick-icon {
+  color: var(--gold-light);
+  font-size: 25px;
+}
