@@ -471,3 +471,26 @@ tbody tr:hover {
   color: var(--gold-light);
   font-size: 25px;
 }
+
+.quick-card > span:nth-child(2) {
+  display: grid;
+  gap: 7px;
+  flex: 1;
+  min-width: 0;
+}
+
+.quick-card strong {
+  font-size: 11px;
+}
+
+.quick-card small {
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.4;
+}
+
+.quick-card b {
+  color: var(--gold);
+  font-size: 21px;
+  font-weight: 400;
+}
