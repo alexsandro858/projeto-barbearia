@@ -551,3 +551,50 @@ tbody tr:hover {
   color: #20150c;
   font-weight: 700;
 }
+
+.calendar-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 3px 0 12px;
+}
+
+.calendar-title strong {
+  font-size: 13px;
+}
+
+.calendar-title button {
+  border: 0;
+  background: none;
+  color: var(--gold-light);
+  font-size: 24px;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  text-align: center;
+  gap: 4px 1px;
+}
+
+.calendar-grid span {
+  display: grid;
+  place-items: center;
+  min-height: 28px;
+  font-size: 12px;
+}
+
+.calendar-weekdays {
+  border-bottom: 1px solid #382719;
+  margin-bottom: 5px;
+  color: #d6c8b8;
+}
+
+.calendar-days .today {
+  background: var(--gold-light);
+  color: #21150c;
+  font-weight: 700;
+  border-radius: 50%;
+  width: 28px;
+  justify-self: center;
+}
