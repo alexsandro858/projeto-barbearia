@@ -494,3 +494,60 @@ tbody tr:hover {
   font-size: 21px;
   font-weight: 400;
 }
+
+.right-column {
+  padding-top: 15px;
+}
+
+.next-client .panel-heading h2,
+.calendar-panel .panel-heading h2,
+.access-panel .panel-heading h2 {
+  font-size: 17px;
+}
+
+.next-client-info {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding: 0 2px 15px;
+}
+
+.client-avatar {
+  width: 75px;
+  height: 75px;
+  flex: 0 0 75px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--gold);
+  border-radius: 50%;
+  color: var(--gold-light);
+  font-size: 22px;
+  background: radial-gradient(circle at 35% 25%, #62432a, #24170f 70%);
+}
+
+.next-client-info h3 {
+  font: 600 17px 'Playfair Display', Georgia, serif;
+  margin: 0 0 6px;
+}
+
+.next-client-info p {
+  margin: 0 0 9px;
+  color: #d7cabe;
+  font-size: 12px;
+}
+
+.time {
+  color: #f0e6d9;
+  font-size: 12px;
+}
+
+.gold-button {
+  display: block;
+  margin-left: auto;
+  padding: 10px 14px;
+  background: linear-gradient(100deg, #e4b975, #c18c43);
+  border: 0;
+  border-radius: 5px;
+  color: #20150c;
+  font-weight: 700;
+}
