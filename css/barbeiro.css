@@ -373,3 +373,30 @@ h1 {
   font-size: 18px;
   margin-left: 4px;
 }
+
+.table-wrap {
+  overflow-x: auto;
+  border: 1px solid #493321;
+  border-radius: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 720px;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 11px 10px;
+  border-bottom: 1px solid #3f2d1e;
+  white-space: nowrap;
+  font-size: 12px;
+}
+
+th {
+  background: #2a1d13;
+  color: #f4e9dd;
+  font-weight: 500;
+}
