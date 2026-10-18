@@ -354,3 +354,22 @@ h1 {
   border-bottom: 1px solid #5a4028;
   margin-bottom: 12px;
 }
+
+.panel-heading h2 {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  margin: 0;
+  font: 600 20px 'Playfair Display', Georgia, serif;
+}
+
+.panel-heading a {
+  color: var(--gold-light);
+  white-space: nowrap;
+  font-size: 12px;
+}
+
+.panel-heading a span {
+  font-size: 18px;
+  margin-left: 4px;
+}
