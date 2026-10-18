@@ -598,3 +598,25 @@ tbody tr:hover {
   width: 28px;
   justify-self: center;
 }
+
+.access-panel > a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 2px;
+  color: #e6dace;
+  font-size: 12px;
+}
+
+.access-panel > a > span {
+  color: var(--gold);
+  font-size: 20px;
+  width: 20px;
+}
+
+.access-panel > a b {
+  margin-left: auto;
+  color: var(--gold);
+  font-size: 21px;
+  font-weight: 400;
+}
