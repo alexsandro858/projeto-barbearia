@@ -426,3 +426,24 @@ tbody tr:hover {
   background: #d8ac20;
   color: #241a0c;
 }
+
+.confirmed {
+  background: #246bc4;
+}
+
+.scheduled {
+  background: #454b56;
+}
+
+.actions {
+  display: flex;
+  gap: 9px;
+}
+
+.actions button {
+  background: none;
+  border: 0;
+  padding: 0;
+  color: var(--gold);
+  font-size: 17px;
+}
