@@ -646,3 +646,33 @@ tbody tr:hover {
 .page-footer b {
   margin: 0 9px;
 }
+
+@media (max-width: 1300px) {
+  .layout {
+    grid-template-columns: 220px minmax(0, 1fr);
+  }
+
+  .main-content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .topbar {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 0 20px;
+  }
+
+  .content-grid {
+    grid-template-columns: minmax(0, 1fr) 270px;
+    gap: 14px;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .quick-cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
